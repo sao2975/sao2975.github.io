@@ -1,5 +1,8 @@
+html,body{
+  min-width: 100%;
+}
 html{
-  height: 100%;
+  width: 100%;
 }
 
 *{
@@ -8,7 +11,7 @@ html{
   width: 100%;
   color: #662700;
   font-family: "BIZ UDPゴシック";
-  font-size: 1.8vw;
+  font-size: 1.6rem;
 }
 
 body{
@@ -23,6 +26,7 @@ a{
 iframe{
     overflow:hidden;
     height: 100%;
+    min-width: 900px;
 }
 
 img{
